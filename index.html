@@ -1,16 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Valentine's Day Flip Book</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Czy zostaniesz moją walentynką?</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap">
+    <link rel="stylesheet" href="style.css"> <!-- Link to external stylesheet -->
 </head>
 <body>
+    <div id="container">
+        <div id="image-container"></div> <!-- Container for displaying images -->
+        <div id="text-container">
+            <div id="question">Czy zostaniesz moją walentynką?</div> <!-- Question -->
+            <div id="options">
+                <button id="yes-button" onclick="selectOption('yes')">Tak :)</button> <!-- Yes button -->
+                <button id="no-button" onclick="selectOption('no')">Nie :(</button> <!-- No button -->
+            </div>
+        </div>
+    </div>
 
-  <div id="hedlinecontainer">
-    <div id="shine">Happy Valentine's Day💞</div>
-  </div>
+    <script src="script.js"></script> <!-- Link to external JavaScript file -->
+</body>
+</html>
   
 
   <div class="gallery">
@@ -23,6 +34,7 @@
 
 </body>
 </html>
+
 
 
 
